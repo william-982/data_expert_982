@@ -12,7 +12,7 @@ with st.sidebar:
         
     from PIL import Image
 
-    image = Image.open("C:/Users/William/IMG_2382.PNG")
+    image = Image.open("William\IMG_2382.PNG")
     st.image(image,
             use_column_width=True
     )
