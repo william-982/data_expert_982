@@ -18,7 +18,7 @@ with st.sidebar:
             use_column_width=True
     )
 
-    image = Image.open("Gambar\IMG_2383.PNG")
+    image = Image.open("https://github.com/william-982/data_expert_982/blob/main/IMG_2383.PNG")
     st.image(image,
             use_column_width=True
     )
