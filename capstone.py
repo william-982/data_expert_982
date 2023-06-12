@@ -9,15 +9,15 @@ with st.sidebar:
     st.caption("_DQLab Tetris Batch 3 #171_")
     st.caption("LinkedIn profile: ")
     st.caption("https://linkedin.com/in/william-wirawan")
-        
+    
     from PIL import Image
 
-    image = Image.open("William\IMG_2382.PNG")
+    image = Image.open("IMG_2382.PNG")
     st.image(image,
             use_column_width=True
     )
 
-    image = Image.open("C:/Users/William/IMG_2383.PNG")
+    image = Image.open("IMG_2383.PNG")
     st.image(image,
             use_column_width=True
     )
@@ -36,7 +36,7 @@ st.write("Membaca dan memahami IHSG dapat memberikan gambaran tentang bagaimana 
 
 from PIL import Image
 
-image = Image.open("Gambar\Gambar Bursa Efek Indonesia.jpg")
+image = Image.open("Gambar Bursa Efek Indonesia.jpg")
 st.image(image,
          caption="ilustrasi Bursa Efek Indonesia", use_column_width=True
 )
@@ -51,7 +51,7 @@ st.table(data)
 
 st.write("Informasi mengenai distribusi jumlah emiten per sektor dapat dilihat di bawah.")
 
-image = Image.open("Gambar\distribusi_jumlah_emiten_per_sektor.png")
+image = Image.open("distribusi_jumlah_emiten_per_sektor.png")
 st.image(image,
          caption="distribusi jumlah emiten per sektor", use_column_width=True
 )
@@ -64,7 +64,7 @@ st.header("CORRELATION HEATMAP")
 st.write("Masing-masing sektor memberikan kontribusi terhadap naik turunnya pergerakan Indeks Harga Saham Gabungan setiap harinya.")
 st.write("Setiap sektor memiliki hubungan dan pengaruh yang berbeda-beda terhadap IHSG maupun sektor lainnya. Secara garis besar, kita dapat melihatnya melalui correlation heatmap di bawah ini.")
 
-image = Image.open("Gambar\ihsg_heatmap_correlation.png")
+image = Image.open("ihsg_heatmap_correlation.png")
 st.image(image,
          caption="peta hubungan antar sektor di Bursa Efek Indonesia", use_column_width=True
 )
@@ -79,17 +79,17 @@ st.write("Berikut scatterplot dari beberapa sektor yg berkorelasi dengan IHSG.")
 
 st.header("SCATTERPLOT")
 
-image = Image.open("Gambar\scatterplot_ihsg_basic_materials.png")
+image = Image.open("scatterplot_ihsg_basic_materials.png")
 st.image(image,
          use_column_width=True
 )
 
-image = Image.open("Gambar\scatterplot_ihsg_industrials.png")
+image = Image.open("scatterplot_ihsg_industrials.png")
 st.image(image,
          use_column_width=True
 )
 
-image = Image.open("Gambar\scatterplot_ihsg_healthcare.png")
+image = Image.open("scatterplot_ihsg_healthcare.png")
 st.image(image,
          use_column_width=True
 )
@@ -102,28 +102,28 @@ st.write("Untuk melihat pergerakan Indeks Harga Saham Gabungan dari waktu ke wak
 
 st.header("LINEPLOT")
 
-image = Image.open("Gambar\lineplot_ihsg.png")
+image = Image.open("lineplot_ihsg.png")
 st.image(image,
          use_column_width=True
 )
 
 st.write("IHSG memiliki 2 titik tertinggi yaitu sekitar bulan April dan September")
 
-image = Image.open("Gambar\lineplot_basic_materials.png")
+image = Image.open("lineplot_basic_materials.png")
 st.image(image,
          use_column_width=True
 )
 
 st.write("Sektor basic_materials memiliki kemiripan titik tertinggi dengan IHSG, yaitu di bulan April")
 
-image = Image.open("Gambar\lineplot_industrials.png")
+image = Image.open("lineplot_industrials.png")
 st.image(image,
          use_column_width=True
 )
 
 st.write("Sektor industrials juga memiliki kemiripan dengan IHSG yaitu mencapai titik tertinggi di bulan September")
 
-image = Image.open("Gambar\lineplot_properties.png")
+image = Image.open("lineplot_properties.png")
 st.image(image,
          use_column_width=True
 )
