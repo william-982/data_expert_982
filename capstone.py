@@ -10,6 +10,17 @@ with st.sidebar:
     st.caption("LinkedIn profile: ")
     st.caption("https://linkedin.com/in/william-wirawan")
         
+        from PIL import Image
+
+    image = Image.open("C:\Users\William\IMG_2382.PNG")
+    st.image(image,
+            use_column_width=True
+    )
+
+    image = Image.open("C:\Users\William\IMG_2383.PNG")
+    st.image(image,
+            use_column_width=True
+    )
 st.title("Perkembangan Indeks Harga Saham Gabungan")
 st.markdown("_Data harian periode Januari - Desember 2022_")
 st.caption("Penulis: William Wirawan")
