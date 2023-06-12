@@ -17,7 +17,7 @@ with st.sidebar:
             use_column_width=True
     )
 
-    image = Image.open("C:\Users\William\IMG_2383.PNG")
+    image = Image.open("C:/Users/William/IMG_2383.PNG")
     st.image(image,
             use_column_width=True
     )
