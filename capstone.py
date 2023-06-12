@@ -9,16 +9,15 @@ with st.sidebar:
     st.caption("_DQLab Tetris Batch 3 #171_")
     st.caption("LinkedIn profile: ")
     st.caption("https://linkedin.com/in/william-wirawan")
-    # st.caption("Mobile number: +62817-982-5599")
-
+    
     from PIL import Image
 
-    image = Image.open("https://github.com/william-982/data_expert_982/blob/main/IMG_2382.PNG")
+    image = Image.open("Gambar\IMG_2382.PNG")
     st.image(image,
             use_column_width=True
     )
 
-    image = Image.open("https://github.com/william-982/data_expert_982/blob/main/IMG_2383.PNG")
+    image = Image.open("Gambar\IMG_2383.PNG")
     st.image(image,
             use_column_width=True
     )
