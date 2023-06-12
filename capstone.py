@@ -21,6 +21,7 @@ with st.sidebar:
     st.image(image,
             use_column_width=True
     )
+
 st.title("Perkembangan Indeks Harga Saham Gabungan")
 st.markdown("_Data harian periode Januari - Desember 2022_")
 st.caption("Penulis: William Wirawan")
