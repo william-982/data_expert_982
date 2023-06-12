@@ -10,7 +10,7 @@ with st.sidebar:
     st.caption("LinkedIn profile: ")
     st.caption("https://linkedin.com/in/william-wirawan")
         
-        from PIL import Image
+    from PIL import Image
 
     image = Image.open("C:\Users\William\IMG_2382.PNG")
     st.image(image,
