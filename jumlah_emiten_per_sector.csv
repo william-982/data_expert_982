@@ -1,0 +1,12 @@
+nomor,nama_sektor,jumlah_emiten
+1,IDX_energy,76
+2,IDX_basic_materials,96
+3,IDX_industrials,56
+4,IDX_non_cyclicals,113
+5,IDX_cyclicals,139
+6,IDX_healthcare,28
+7,IDX_financials,106
+8,IDX_properties,84
+9,IDX_technology,34
+10,IDX_infrastructures,62
+11,IDX_transportation,30
