@@ -23,7 +23,6 @@ with st.sidebar:
     )
 
 st.title("Perkembangan Indeks Harga Saham Gabungan")
-st.subtitle("Pengaruh 11 Indeks Sektoral Terhadap Pergerakan IHSG")
 st.markdown("_Data harian periode Januari - Desember 2022_")
 st.caption("Penulis: William Wirawan")
 
