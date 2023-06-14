@@ -57,8 +57,8 @@ st.image(image,
          caption="distribusi jumlah emiten per sektor", use_column_width=True
 )
 
-st.write("Dari scatterplot di atas, sektor **healthcare**, **transportation** dan **technology** memiliki jumlah emiten paling sedikit di Bursa Efek Indonesia, yakni di bawah 40 emiten.")
-st.write("Sedangkan sektor **cyclicals**, **non_cyclicals** dan **financials** menjadi penyumbang emiten terbanyak yaitu di atas 100 emiten, bahkan sektor cyclicals dengan 139 emiten.")
+st.write("Dari scatterplot di atas, sektor **HEALTHCARE**, **TRANSPORTATION** dan **TECHNOLOGY** memiliki jumlah emiten paling sedikit di Bursa Efek Indonesia, yakni di bawah 40 emiten.")
+st.write("Sedangkan sektor **CYCLICALS**, **NON_CYCLICALS** dan **FINANCIALS** menjadi penyumbang emiten terbanyak yaitu di atas 100 emiten, bahkan sektor CYCLICALS dengan 139 emiten.")
 
 st.header("CORRELATION HEATMAP")
 
@@ -71,9 +71,9 @@ st.image(image,
 )
 
 with st.expander("Insight dari correlation heatmap"):
-    st.write("1. Sektor **basic materials** dan **industrials** memiliki korelasi positif yang kuat terhadap pergerakan IHSG")
-    st.write("2. Sektor **properties** memiliki korelasi positif namun lemah terhadap pergerakan IHSG")
-    st.write("3. **Healthcare** menjadi satu-satunya sektor yang berkorelasi negatif terhadap pergerakan IHSG")
+    st.write("1. Sektor **BASIC_MATERIALS** dan **INDUSTRIALS** memiliki korelasi positif yang kuat terhadap pergerakan IHSG")
+    st.write("2. Sektor **PROPERTIES** memiliki korelasi positif namun lemah terhadap pergerakan IHSG")
+    st.write("3. **HEALTHCARE** menjadi satu-satunya sektor yang berkorelasi negatif terhadap pergerakan IHSG")
 
 st.write("Scatterplot dapat digunakan untuk menampilkan pola, kecenderungan, atau korelasi antara dua variabel.")
 st.write("Berikut scatterplot dari beberapa sektor yg berkorelasi dengan IHSG.")
@@ -96,8 +96,8 @@ st.image(image,
 )
 
 with st.expander("Insight dari scatterplot"):
-    st.write("1. Persebaran data antara IHSG dan sektor **basic materials** dan **industrials** memiliki arah dari kiri bawah ke kanan atas yang menandakan adanya korelasi positif antara IHSG dan kedua sektor tersebut")
-    st.write("2. Dari scatterplot antara IHSG dan sektor **healthcare**, persebaran data terlihat merata dan cenderung berkumpul di kanan bawah yang mengindikasikan korelasi negatif terhadap pergerakan IHSG")
+    st.write("1. Persebaran data antara IHSG dan sektor **BASIC_MATERIALS** dan **INDUSTRIALS** memiliki arah dari kiri bawah ke kanan atas yang menandakan adanya korelasi positif antara IHSG dan kedua sektor tersebut")
+    st.write("2. Dari scatterplot antara IHSG dan sektor **HEALTHCARE**, persebaran data terlihat merata dan cenderung berkumpul di kanan bawah yang mengindikasikan korelasi negatif terhadap pergerakan IHSG")
 
 st.write("Untuk melihat pergerakan Indeks Harga Saham Gabungan dari waktu ke waktu (dalam hal ini Januari s/d Desember 2022), kita dapat merujuk kepada lineplot berikut ini.")
 
@@ -132,7 +132,7 @@ st.image(image,
 st.write("Pada periode yang sama, IHSG menunjukkan pergerakan yang cukup fluktuatif, di sisi lain pergerakan sektor properties tidak terlalu fluktuatif")
 
 st.write("Kesimpulan:")
-st.write("1. **Basic_materials** dan **industrials** adalah dua sektor yang memiliki korelasi positif terkuat terhadap pergerakan IHSG, artinya pergerakan kedua sektor ini searah dengan pergerakan IHSG dimana bila kedua sektor ini menguat, akan memberikan dampak penguatan terhadap IHSG dan juga sebaliknya.")
-st.write("2. Sementara **healthcare** adalah satu-satunya sektor yang bergerak berlawanan dengan IHSG dimana bila sektor healthcare mengalami pelemahan, maka IHSG akan mengalami penguatan.")
-st.write("3. Jumlah emiten terbesar ada di sektor **cyclicals, non_cyclicals, dan financials**. Namun banyaknya jumlah emiten tersebut tidak memiliki pengaruh yang signifikan terhadap pergerakan IHSG.")
-st.write("4. Jumlah emiten terkecil ada di sektor **healthcare, transportation, dan technology**. Serupa dengan hal di atas, jumlah emiten tidak mempengaruhi pergerakan IHSG secara signifikan.")
+st.write("1. **BASIC_MATERIALS** dan **INDUSTRIALS** adalah dua sektor yang memiliki korelasi positif terkuat terhadap pergerakan IHSG, artinya pergerakan kedua sektor ini searah dengan pergerakan IHSG dimana bila kedua sektor ini menguat, akan memberikan dampak penguatan terhadap IHSG dan juga sebaliknya.")
+st.write("2. Sementara **HEALTHCARE** adalah satu-satunya sektor yang bergerak berlawanan dengan IHSG dimana bila sektor healthcare mengalami pelemahan, maka IHSG akan mengalami penguatan.")
+st.write("3. Jumlah emiten terbesar ada di sektor **CYCLICALS, NON_CYCLICALS, dan FINANCIALS**. Namun banyaknya jumlah emiten tersebut tidak memiliki pengaruh yang signifikan terhadap pergerakan IHSG.")
+st.write("4. Jumlah emiten terkecil ada di sektor **HEALTHCARE, TRANSPORTATION, dan TECHNOLOGY**. Serupa dengan hal di atas, jumlah emiten tidak mempengaruhi pergerakan IHSG secara signifikan.")
