@@ -58,7 +58,7 @@ st.image(image,
 )
 
 st.write("Dari scatterplot di atas, sektor **HEALTHCARE**, **TRANSPORTATION** dan **TECHNOLOGY** memiliki jumlah emiten paling sedikit di Bursa Efek Indonesia, yakni di bawah 40 emiten.")
-st.write("Sedangkan sektor **CYCLICALS**, **NON_CYCLICALS** dan **FINANCIALS** menjadi penyumbang emiten terbanyak yaitu di atas 100 emiten, bahkan sektor CYCLICALS dengan 139 emiten.")
+st.write("Sedangkan sektor **CYCLICALS**, **NON_CYCLICALS** dan **FINANCIALS** menjadi penyumbang emiten terbanyak yaitu di atas 100 emiten, bahkan sektor **CYCLICALS** dengan 139 emiten.")
 
 st.header("CORRELATION HEATMAP")
 
@@ -75,10 +75,10 @@ with st.expander("Insight dari correlation heatmap"):
     st.write("2. Sektor **PROPERTIES** memiliki korelasi positif namun lemah terhadap pergerakan IHSG")
     st.write("3. **HEALTHCARE** menjadi satu-satunya sektor yang berkorelasi negatif terhadap pergerakan IHSG")
 
+st.header("SCATTERPLOT")
+
 st.write("Scatterplot dapat digunakan untuk menampilkan pola, kecenderungan, atau korelasi antara dua variabel.")
 st.write("Berikut scatterplot dari beberapa sektor yg berkorelasi dengan IHSG.")
-
-st.header("SCATTERPLOT")
 
 image = Image.open("scatterplot_ihsg_basic_materials.png")
 st.image(image,
@@ -99,9 +99,9 @@ with st.expander("Insight dari scatterplot"):
     st.write("1. Persebaran data antara IHSG dan sektor **BASIC_MATERIALS** dan **INDUSTRIALS** memiliki arah dari kiri bawah ke kanan atas yang menandakan adanya korelasi positif antara IHSG dan kedua sektor tersebut")
     st.write("2. Dari scatterplot antara IHSG dan sektor **HEALTHCARE**, persebaran data terlihat merata dan cenderung berkumpul di kanan bawah yang mengindikasikan korelasi negatif terhadap pergerakan IHSG")
 
-st.write("Untuk melihat pergerakan Indeks Harga Saham Gabungan dari waktu ke waktu (dalam hal ini Januari s/d Desember 2022), kita dapat merujuk kepada lineplot berikut ini.")
-
 st.header("LINEPLOT")
+
+st.write("Untuk melihat pergerakan Indeks Harga Saham Gabungan dari waktu ke waktu (dalam hal ini Januari s/d Desember 2022), kita dapat merujuk kepada lineplot berikut ini.")
 
 image = Image.open("lineplot_ihsg.png")
 st.image(image,
@@ -131,7 +131,7 @@ st.image(image,
 
 st.write("Pada periode yang sama, IHSG menunjukkan pergerakan yang cukup fluktuatif, di sisi lain pergerakan sektor properties tidak terlalu fluktuatif")
 
-st.write("Kesimpulan:")
+st.subheader("Kesimpulan:")
 st.write("1. **BASIC_MATERIALS** dan **INDUSTRIALS** adalah dua sektor yang memiliki korelasi positif terkuat terhadap pergerakan IHSG, artinya pergerakan kedua sektor ini searah dengan pergerakan IHSG dimana bila kedua sektor ini menguat, akan memberikan dampak penguatan terhadap IHSG dan juga sebaliknya.")
 st.write("2. Sementara **HEALTHCARE** adalah satu-satunya sektor yang bergerak berlawanan dengan IHSG dimana bila sektor healthcare mengalami pelemahan, maka IHSG akan mengalami penguatan.")
 st.write("3. Jumlah emiten terbesar ada di sektor **CYCLICALS, NON_CYCLICALS, dan FINANCIALS**. Namun banyaknya jumlah emiten tersebut tidak memiliki pengaruh yang signifikan terhadap pergerakan IHSG.")
